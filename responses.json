@@ -1,0 +1,22 @@
+{
+    "saudacao": {
+        "keywords": ["olá", "oi", "hey", "bom dia", "boa tarde", "boa noite"],
+        "response": "Olá! Como posso ajudar você hoje?"
+    },
+    "produto": {
+        "keywords": ["produto", "item", "comprar", "preço"],
+        "response": "Temos vários produtos disponíveis. Pode me dizer mais sobre o que você está procurando?"
+    },
+    "entrega": {
+        "keywords": ["entrega", "envio", "frete", "prazo"],
+        "response": "Nosso prazo de entrega padrão é de 3 a 5 dias úteis. Para mais detalhes, por favor, verifique nossa política de envio."
+    },
+    "pagamento": {
+        "keywords": ["pagamento", "pagar", "cartão", "boleto"],
+        "response": "Aceitamos diversas formas de pagamento, incluindo cartão de crédito, débito e boleto bancário."
+    },
+    "duvida": {
+        "keywords": ["dúvida", "ajuda", "suporte", "problema"],
+        "response": "Estou aqui para ajudar! Por favor, me conte mais sobre sua dúvida ou problema."
+    }
+}

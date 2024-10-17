@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente Virtual - Atendimento ao Cliente</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1><i class="fas fa-robot"></i> Assistente Virtual</h1>
+            <button id="themeToggle" aria-label="Alternar tema">
+                <i class="fas fa-moon"></i>
+            </button>
+        </header>
+        <main class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+                <i class="fas fa-robot"></i>
+                <p>Olá! Como posso ajudar você hoje?</p>
+            </div>
+        </main>
+        <footer class="chat-input">
+            <input type="text" id="userInput" placeholder="Digite sua mensagem..." aria-label="Digite sua mensagem">
+            <button onclick="sendMessage()" aria-label="Enviar mensagem">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/compromise"></script>
+    <script src="script.js"></script>
+</body>
+</html>
